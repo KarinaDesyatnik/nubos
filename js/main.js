@@ -61,3 +61,15 @@ if(window.innerWidth < 992) {
 }
 // -------end mobil dropdown menu--------
 
+
+$(window).scroll(function() {
+if ($(this).scrollTop() > 50){
+$('.header__content').addClass("sticky");
+$('.header__menu .menu').addClass("sticky");
+
+}
+else{
+$('.header__content').removeClass("sticky");
+$('.header__menu .menu').removeClass("sticky");
+}
+});
