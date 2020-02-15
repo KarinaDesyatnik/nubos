@@ -9,7 +9,7 @@ $('.menu .menu-link').click(function(){
 		$('.btn-menu').removeClass('active');		
 	});
 
-$('.slider').slick({
+$('.slider-home').slick({
 prevArrow: $('.prev'),
 nextArrow: $('.next'),
 slidesToShow: 2,

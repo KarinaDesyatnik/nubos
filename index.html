@@ -7,7 +7,9 @@
 	<title>NUBOS</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
 	<link href="//db.onlinewebfonts.com/c/2858f88cb71b6ac1122a944e220d9940?family=DK+Cool+Crayon" rel="stylesheet" type="text/css"/>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">	   
+	<link rel="stylesheet" href="css/setting.min.css">
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -172,12 +174,100 @@
 <!-- ------------end header------------ -->
 
 <!-- -------------start banner----------- -->
-<section class="banner">
+<!-- <section class="banner">
 	<div class="container">
 		<div class="banner__title">Wouldn't it be nice <br> if computers <br> work for you <br>instead of you MUST <br> work with computers?</div>
 
 	</div>
-</section>
+</section> -->
+
+
+
+	<div class="slider-container rev_slider_wrapper">
+		<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options='{"gridwidth": 1170, "gridheight": 500}'>
+			<ul>
+				<li data-transition="fade">
+	
+					<div class="tp-caption top-label"
+						data-x="60"
+						data-y="150"
+						data-start="500"
+						data-transform_in="y:[-300%];opacity:0;s:500;">Zou het niet fijn zijn als computers</div>
+
+					<div class="tp-caption main-label"
+						data-x="125"
+						data-y="220"
+						data-start="1500"
+						data-whitespace="nowrap"						 
+						data-transform_in="y:[100%];s:500;"
+						data-transform_out="opacity:0;s:500;"
+						data-mask_in="x:0px;y:0px;">VOOR je werken</div>
+	
+					<div class="tp-caption bottom-label"
+						data-x="20"
+						data-y="320"
+						data-start="2000"
+						data-transform_in="y:[100%];opacity:0;s:500;">i.p.v. dat je met computers MOET werken?</div>
+	
+					<div class="tp-caption"
+						data-x="910"
+						data-y="248"
+						data-start="2500"
+						data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1300;"><img src="img/slides/slide-concept-2-1.png" alt=""></div>
+	
+					<div class="tp-caption"
+						data-x="960"
+						data-y="200"
+						data-start="3500"
+						data-transform_in="y:[300%];opacity:0;s:300;"><img src="img/slides/slide-concept-2-2.png" alt=""></div>
+	
+					<div class="tp-caption"
+						data-x="930"
+						data-y="170"
+						data-start="3650"
+						data-transform_in="y:[300%];opacity:0;s:300;"><img src="img/slides/slide-concept-2-3.png" alt=""></div>
+	
+					<div class="tp-caption"
+						data-x="880"
+						data-y="130"
+						data-start="3750"
+						data-transform_in="y:[300%];opacity:0;s:300;"><img src="img/slides/slide-concept-2-4.png" alt=""></div>
+	
+					<div class="tp-caption"
+						data-x="610"
+						data-y="80"
+						data-start="3950"
+						data-transform_in="y:[300%];opacity:0;s:300;"><img src="img/slides/slide-concept-2-5.png" alt=""></div>
+	
+					<div class="tp-caption blackboard-text"
+						data-x="640"
+						data-y="300"
+						data-start="3950"
+						style="font-size: 37px;"
+						data-transform_in="y:[300%];opacity:0;s:300;">Think</div>
+	
+					<div class="tp-caption blackboard-text"
+						data-x="665"
+						data-y="350"
+						data-start="4150"
+						style="font-size: 47px;"
+						data-transform_in="y:[300%];opacity:0;s:300;">Outside</div>
+	
+					<div class="tp-caption blackboard-text"
+						data-x="690"
+						data-y="400"
+						data-start="4350"
+						style="font-size: 32px;"
+						data-transform_in="y:[300%];opacity:0;s:300;">The box :)</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+
+
+
 <!-- ----------------end banner-------------- -->
 
 <!-- ----------------start cta section-------------- -->
@@ -466,7 +556,7 @@
 			<div class="col-lg-8">
 				<div class="slider_box">
 	<div class="container">
-		<div class="slider">
+		<div class="slider-home">
 			<div class="items_slider">
 				<div class="testimonial__item">
 					<div class="testimonial__item-content">
@@ -685,5 +775,10 @@ for (let anchor of anchors) {
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="js/libs.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/banner.js"></script>
+	<script src="js/jquery.themepunch.tools.min.js"></script>
+	<script src="js/jquery.themepunch.revolution.min.js"></script>
+
+
 </body>
 </html>
